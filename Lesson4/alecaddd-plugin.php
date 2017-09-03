@@ -57,7 +57,7 @@ class AlecadddPlugin
 	}
 
 	function custom_post_type() {
-		register_post_type( 'book', ['public' => true, 'label' => 'Books'] );
+		register_post_type( 'book', array( 'public' => true, 'label' => 'Books' ) );
 	}
 }
 
