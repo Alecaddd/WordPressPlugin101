@@ -6,7 +6,7 @@ namespace Inc\Pages;
 
 use Inc\Api\SettingsApi;
 use Inc\Base\BaseController;
-use Inc\Api\Callbacks\AdminCallbacks;
+use Inc\Api\Callbacks\Admin;
 
 /**
 * 
@@ -25,7 +25,7 @@ class Admin extends BaseController
 	{
 		$this->settings = new SettingsApi();
 
-		$this->callbacks = new AdminCallbacks();
+		$this->callbacks = new Admin();
 
 		$this->setPages();
 
