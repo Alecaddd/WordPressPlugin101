@@ -92,47 +92,47 @@ class Admin extends BaseController
 			array(
 				'option_group' => 'alecaddd_plugin_settings',
 				'option_name' => 'cpt_manager',
-				'callback' => array( $this->callbacks, 'checkboxSanitize' )
+				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			),
 			array(
 				'option_group' => 'alecaddd_plugin_settings',
 				'option_name' => 'taxonomy_manager',
-				'callback' => array( $this->callbacks, 'checkboxSanitize' )
+				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			),
 			array(
 				'option_group' => 'alecaddd_plugin_settings',
 				'option_name' => 'media_widget',
-				'callback' => array( $this->callbacks, 'checkboxSanitize' )
+				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			),
 			array(
 				'option_group' => 'alecaddd_plugin_settings',
 				'option_name' => 'gallery_manager',
-				'callback' => array( $this->callbacks, 'checkboxSanitize' )
+				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			),
 			array(
 				'option_group' => 'alecaddd_plugin_settings',
 				'option_name' => 'testimonial_manager',
-				'callback' => array( $this->callbacks, 'checkboxSanitize' )
+				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			),
 			array(
 				'option_group' => 'alecaddd_plugin_settings',
 				'option_name' => 'templates_manager',
-				'callback' => array( $this->callbacks, 'checkboxSanitize' )
+				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			),
 			array(
 				'option_group' => 'alecaddd_plugin_settings',
 				'option_name' => 'login_manager',
-				'callback' => array( $this->callbacks, 'checkboxSanitize' )
+				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			),
 			array(
 				'option_group' => 'alecaddd_plugin_settings',
 				'option_name' => 'membership_manager',
-				'callback' => array( $this->callbacks, 'checkboxSanitize' )
+				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			),
 			array(
 				'option_group' => 'alecaddd_plugin_settings',
 				'option_name' => 'chat_manager',
-				'callback' => array( $this->callbacks, 'checkboxSanitize' )
+				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			)
 		);
 
