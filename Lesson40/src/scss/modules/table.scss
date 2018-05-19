@@ -1,0 +1,21 @@
+.cpt-table {
+	width: 100%;
+	border-spacing: 5px;
+	text-align: left;
+
+	&,
+	& th,
+	& td {
+		border: 1px solid #ccc;
+		border-collapse: collapse;
+		padding: 10px;
+	}
+
+	& th {
+		background-color: #f5f5f5;
+	}
+}
+
+.text-center {
+	text-align: center;
+}
