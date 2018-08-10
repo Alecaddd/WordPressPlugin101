@@ -6,13 +6,11 @@
 .ac-slider--container {
 	position: relative;
 	width: 100%;
-
 	.ac-slider--view {
 		display: block;
 		width: 100%;
 		margin: 0 auto;
 		overflow: hidden;
-
 		ul {
 			white-space: nowrap;
 			text-align: center;
@@ -20,7 +18,6 @@
 			margin: 0;
 			padding: 0;
 			transition: transform 0.25s ease-out;
-
 			.ac-slider--view__slides {
 				white-space: normal;
 				display: inline-block;
@@ -29,11 +26,9 @@
 			}
 		}
 	}
-
 	.ac-slider--arrows {
 		width: 100%;
 		margin: 0 auto;
-
 		span {
 			position: absolute;
 			top: 50%;
@@ -47,17 +42,14 @@
 			line-height: 1.3em;
 			text-align: center;
 			opacity: 0.5;
-
 			&.ac-slider--arrows__left {
 				left: 0;
 				transform: translateX(-100%) translateY(-50%);
 			}
-
 			&.ac-slider--arrows__right {
 				right: 0;
 				transform: translateX(100%) translateY(-50%);
 			}
-
 			&:hover {
 				opacity: 1;
 			}
