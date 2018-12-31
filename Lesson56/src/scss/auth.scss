@@ -1,0 +1,72 @@
+#alecaddd-auth-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    overflow: hidden;
+
+    .auth-btn {
+        margin: 20px;
+        top: 0;
+        right: 0;
+        position: absolute;
+
+        &.hide {
+            display: none;
+        }
+    }
+
+    .auth-container {
+        transition: transform 200ms ease;
+        transform: translateX(300px);
+
+        width: 220px;
+        margin: 20px;
+        position: relative;
+        background: #fff;
+        padding: 10px;
+        border-radius: 4px;
+
+        &.show {
+            transform: translateX(0);
+        }
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-top: 0;
+        font-size: 16px;
+    }
+
+    .close {
+        position: absolute;
+        top: 3px;
+        right: 10px;
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        margin-bottom: 10px;
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    .actions {
+        text-align: center;
+        margin-bottom: 0;
+
+        a {
+            font-size: 10px;
+            text-transform: uppercase;
+            display: inline-block;
+            margin: 0 4px;
+        }
+    }
+}
