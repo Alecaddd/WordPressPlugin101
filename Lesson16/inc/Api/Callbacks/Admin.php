@@ -6,7 +6,7 @@ namespace Inc\Api\Callbacks;
 
 use Inc\Base\BaseController;
 
-class AdminCallbacks extends BaseController
+class Admin extends BaseController
 {
 	public function adminDashboard()
 	{
